@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "prh": {
+        "rulePaths": [
+            "./my_rules.yml"
+        ]
+    },
+    // "preset-ja-technical-writing": true,
+    "no-exclamation-question-mark": {
+      "allowHalfWidthExclamation": true
+    }
+  },
+  "filters": {
+    "allowlist": {
+      "allow": [
+        "ここに許容される言葉を書いていく"
+      ]
+    }
+  }
+}
