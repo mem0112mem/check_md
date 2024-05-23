@@ -1,0 +1,12 @@
+version: 1
+rules:
+  - expected: Web
+    pattern: WEB
+  - expected: Web
+    pattern: web
+  - expected: Web
+    pattern: ウェブ
+  - expected: Java
+    pattern: JAVA
+  - expected: Java
+    pattern: java
